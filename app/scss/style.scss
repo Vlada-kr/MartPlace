@@ -428,6 +428,7 @@
   top: -125px;
   right: 0;
   z-index: 5;
+  cursor: pointer;
 }
 .right {
   background-color: brown;
@@ -537,5 +538,21 @@
     border: none;
     cursor: pointer;
     outline: none;
+  }
+}
+
+.products__top{
+  background-color: #eff1f5;
+  padding: 115px 0; 
+}
+.products__top-slider{
+  .products__item{
+    width: 360px;
+    margin: 0 15px;
+    &.slick-slide {
+      img {
+        display: inline-block;
+      }
+    }
   }
 }
